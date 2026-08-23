@@ -223,12 +223,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .navbar__whatsapp svg{ width:16px; height:16px; }
 
 @media (max-width:760px){
-  .navbar{ padding:0 5vw; height:68px; }
+  .navbar{ padding:0 5vw; height:50px; }
   .navbar__links{ gap:16px; }
   .navlink{ font-size:13px; }
   .navbar__whatsapp span{ display:none; }
-  .navbar__whatsapp{ padding:11px; }
-  :root{ --nav-h:68px; }
+  .navbar__whatsapp{ padding:7px; }
+  :root{ --nav-h:50px; }
 }
 
 /* ================================================================
@@ -269,7 +269,7 @@ section{
    ================================================================ */
 .hero{
   min-height:auto;
-  padding-top:calc(var(--nav-h) + 40px);
+  padding-top:calc(var(--nav-h) + 24px); /* Reduced top spacing offset */
   padding-bottom:30px;
   display:flex;
   flex-direction:column;
